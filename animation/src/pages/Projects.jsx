@@ -1,5 +1,5 @@
 import React from 'react'
-import Cardsprojects from '../components/projects/cardsprojects'
+import Cardsprojects from '../components/projects/cardsprojects.jsx'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
