@@ -20,7 +20,7 @@ const Hero = () => {
                                     words.map((word) => (
                                         <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
                                             <img src={word.imgPath} alt={word.text} className='xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50'/>
-                                            <span className='text-white-50'>{word.text}</span>
+                                            <span className=''>{word.text}</span>
                                         </span>
                                     ))
                                         
@@ -32,7 +32,7 @@ const Hero = () => {
                     <h1>into Real Projects</h1>
                     <h1>that Deliver Results</h1>
                 </div>
-                  <p className='text-white-50 md:text-xl relative z-10 pointer-envents-none'>Hi, I'm Awais, a Full Stack and AI Developer I'm passionate about creating innovative solutions that make a difference in the world.</p>
+                  <p className='text-white-50 md:text-sm relative z-10 pointer-envents-none'>Hi, I'm Awais, a Full Stack and AI Developer. </p>
                     <Button className='md:w-80 md:h-16 w-60 h-12'
                     id='button' 
                     text='See my work'
@@ -42,7 +42,7 @@ const Hero = () => {
         {/* Right Side: 3D modehero image */}
 
         <figure>
-          <div className="hero-3d-layout ">
+          <div className="hero-3d-layout">
             <HeroExperiences/>
 
           </div>
