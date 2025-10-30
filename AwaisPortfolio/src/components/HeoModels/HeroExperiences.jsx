@@ -4,16 +4,17 @@ import { useMediaQuery } from 'react-responsive'
 import React from 'react'
 import { Room } from './Room'
 import Herolights from './Herolights'
+import Particles from './Particles'
 
 const HeroExperiences = () => {
   const isTablet = useMediaQuery({ query: '(max-width: 900px)' });
   const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
 
   return (
-    <Canvas camera={{position: [0, 0, 15], fov: 45}}>
+    <Canvas camera={{position: [1, 0, 15], fov: 45}}>
      
      <Herolights/>
-
+      <Particles count={150} />
       <OrbitControls 
            enablePan={true}
            enableZoom={!isTablet}
