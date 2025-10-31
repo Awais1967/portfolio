@@ -110,11 +110,11 @@ section {
     }
 
     &.not-scrolled {
-      @apply md:top-10 top-0 bg-transparent;
+      @apply md:top-0 top-0 bg-transparent;
     }
 
     .inner {
-      @apply mx-auto flex items-center justify-between;
+      @apply mx-auto flex items-center justify-between mt-6;
     }
 
     .logo {
